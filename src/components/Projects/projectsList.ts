@@ -45,7 +45,22 @@ export const projectsContainer: Project[] = [
         },
         screenshotUrl: "https://srv43823.seohost.com.pl/Portfolio.jpg",
         url: "https://zdechy.pl/",
-        githubUrl: "https://zdechy.pl/",
+        githubUrl: "https://github.com/Andrzejczyk97/My-portfolio",
+    },
+    {
+        title: {
+            en: "Hexagonal 2048 game",
+            pl: "Sześciokątna gra 2048",
+        },
+        description: {
+            en: `This game is the first thing I've created in React. It was a entry task for the Bootcamp. It is a 2048 game on a hexagonal grid. Try to play! Use Q, W, E, A, S, D for steering.
+            It uses a custom API for generating new numbers in random fields.`,
+            pl: `Ta gra jest pierwszą aplikacją, którą stworzyłem w React. Została stworzona jako zadanie wstępne do Bootcampu. Jest to gra 2048 na sześciokątnej siatce. Spróbuj zagrać! Użyj Q, W, E, A, S, D do sterowania.
+            Wykorzystuje niestandardowy interfejs API do generowania nowych liczb w losowych polach.`,
+        },
+        screenshotUrl: "https://srv43823.seohost.com.pl/hex2048.jpg",
+        url: "https://zdechy.pl/",
+        githubUrl: "",
     },
     {
         title: {
