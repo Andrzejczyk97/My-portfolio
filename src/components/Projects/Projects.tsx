@@ -34,7 +34,6 @@ export default function Projects() {
     return(
         <section id="projects-section">
             <h1 className="section-heading"> <TranslateText translationKey="projects.title"/> </h1>
-            <h2>More projects with github coming soon! Please check in a few days!</h2>
             <div className="projects-container">
                 {projects}
             </div>

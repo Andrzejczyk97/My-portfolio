@@ -1,6 +1,5 @@
 import LangSelector from "../LanguageSelector/LangSelector"
 import { TranslateText } from '../LanguageSelector/TranslateText';
-import "./Navbar.css"
 
 export default function Navbar() {
 

@@ -39,13 +39,81 @@ export const projectsContainer: Project[] = [
         },
         description: {
             en: `This website is a TypeScript React App. It uses Language Context for
-                the needs of translation. It's pretty simple, does its job and is responsive :)`,
+            the needs of translation. It's pretty simple, does its job and is responsive :)`,
             pl: `Ta strona to aplikacja React napisana w TypeScript. Jest prosta, 
             ale spełnia swoją funkcję i jest responsywna.`,
         },
         screenshotUrl: "https://srv43823.seohost.com.pl/Portfolio.jpg",
-        url: "https://zdechy.pl/",
+        url: "https://andrzejczyk-portfolio.surge.sh/",
         githubUrl: "https://github.com/Andrzejczyk97/My-portfolio",
+    },
+    {
+        title: {
+            en: "Bob's List - Admin Page",
+            pl: "Bob's List - Admin Page",
+        },
+        description: {
+            en: `Project developed as one of homeworks  Evolution's 2023 TypeScript Bootcamp. In this task, 
+            I had to create an admin site for adding notes to Bob's list (the previous project - check below). 
+            The admin panel consists of two main areas: a list of notes and an add note form. My job was to implement 
+            the functionality to add and remove notes and display any errors if the update or add request fails. 
+            Additionally, had to make the App available in both English and Spanish, so I had to implement the translation 
+            engine using React Context. I was provided a network service called NetworkHandler to handle store, modify 
+            and retrieve data. I needed to use the provided React hook (network/useRequest.ts) to use this service. 
+            To give the app a more professional look, I also had to implement a loading screen that displays while any 
+            network request is pending. I also implemented sounds on click.`,
+            pl: `Projekt opracowany jako jedna z prac domowych na TypeScript Bootcamp Evolution 2023. W tym zadaniu musiałem 
+            utworzyć stronę administracyjną do dodawania notatek do listy Boba (poprzedni projekt - patrz poniżej). 
+            Panel administracyjny składa się z dwóch głównych obszarów: listy notatek oraz formularza dodawania notatek.
+             Moim zadaniem było zaimplementowanie funkcjonalności dodawania i usuwania notatek oraz wyświetlania błędów w przypadku 
+             niepowodzenia aktualizacji lub dodania. Dodatkowo musiałem zapewnić działanie aplikacji zarówno w języku angielskim, 
+             jak i hiszpańskim, więc musiałem zaimplementować silnik tłumaczeniowy za pomocą React Context. 
+             Dostarczono mi usługę sieciową o nazwie NetworkHandler do obsługi przechowywania, modyfikowania i pobierania danych.
+              Musiałem użyć dostarczonego hooka React (network/useRequest.ts), aby skorzystać z tej usługi. 
+              Musiałem również zaimplementować ekran ładowania, który wyświetla się, gdy oczekujące żądanie sieciowe. 
+              Zaimplementowałem również dźwięki po kliknięciu.`,
+        },
+        screenshotUrl: "https://srv43823.seohost.com.pl/bob_s-list-admin.jpg",
+        url: "https://bobs-list-admin.surge.sh/",
+        githubUrl: "https://github.com/Andrzejczyk97/Bob-s-List-Admin",
+    },
+    {
+        title: {
+            en: "Bob's List",
+            pl: "Bob's List",
+        },
+        description: {
+            en: `Project developed as one of homeworks  Evolution's 2023 TypeScript Bootcamp. In this task,
+             I had to fix the app that displays a list of cities, favourite dishes, and the average
+              grade for food in each city. The random notes are added constantly by the app. The app stores 
+              all data in window.NotesStorage. I needed to modify the city filter and list ordering selector to 
+              work correctly. Additionally, I had to ensure that the list was updated when a city is added 
+              multiple times, and handle cases where the data about a city may be incorrect.`,
+            pl: `Projekt opracowany jako jedna z prac domowych na TypeScript Bootcamp Evolution 2023. W tym zadaniu
+             musiałem naprawić aplikację wyświetlającą listę miast, ulubione potrawy i średnią ocenę jedzenia w 
+             każdym mieście. Losowe notatki są stale dodawane przez aplikację. Aplikacja przechowuje wszystkie 
+             dane w window.NotesStorage. Musiałem zmodyfikować filtr miasta i selektor kolejności na liście, aby działały
+              poprawnie. Dodatkowo musiałem zadbać o to, aby lista była aktualizowana przy wielokrotnym dodawaniu 
+              miasta oraz obsługiwać przypadki, w których dane o mieście mogą być nieprawidłowe.`,
+        },
+        screenshotUrl: "https://srv43823.seohost.com.pl/bob_s-list.jpg",
+        url: "https://bobs-list.surge.sh/",
+        githubUrl: "https://github.com/Andrzejczyk97/Bob-s-List",
+    },
+    {
+        title: {
+            en: "Redux - Bingo Game",
+            pl: "Gra Bingo - Redux",
+        },
+        description: {
+            en: `This is a Bingo game, developed as a Redux homework during Evolution's 2023 TypeScript Bootcamp
+            I had to develop Redux store and reducer to implement Bingo game logic, and connect that to the UI.`,
+            pl: `Gra Bingo. Projekt stworzony jako praca domowa podczas Bootcampu Evolution TypeScript. Moim zadaniem
+             było stworzenie reducera, w którym zaimplementowana będzie logika gry w Bingo oraz połączenie tego z UI.`,
+        },
+        screenshotUrl: "https://srv43823.seohost.com.pl/redux-bingo.jpg",
+        url: "https://redux-bingo.surge.sh/",
+        githubUrl: "https://github.com/Andrzejczyk97/Redux-bingo",
     },
     {
         title: {
@@ -53,13 +121,15 @@ export const projectsContainer: Project[] = [
             pl: "Sześciokątna gra 2048",
         },
         description: {
-            en: `This game is the first thing I've created in React. It was a entry task for the Bootcamp. It is a 2048 game on a hexagonal grid. Try to play! Use Q, W, E, A, S, D for steering.
+            en: `This game is the first thing I've created in React. It was a entry task for the Bootcamp. 
+            It is a 2048 game on a hexagonal grid. Try to play! Use Q, W, E, A, S, D for steering.
             It uses a custom API for generating new numbers in random fields.`,
-            pl: `Ta gra jest pierwszą aplikacją, którą stworzyłem w React. Została stworzona jako zadanie wstępne do Bootcampu. Jest to gra 2048 na sześciokątnej siatce. Spróbuj zagrać! Użyj Q, W, E, A, S, D do sterowania.
+            pl: `Ta gra jest pierwszą aplikacją, którą stworzyłem w React. Została stworzona jako zadanie wstępne do Bootcampu. 
+             Jest to gra 2048 na sześciokątnej siatce. Spróbuj zagrać! Użyj Q, W, E, A, S, D do sterowania.
             Wykorzystuje niestandardowy interfejs API do generowania nowych liczb w losowych polach.`,
         },
         screenshotUrl: "https://srv43823.seohost.com.pl/hex2048.jpg",
-        url: "https://zdechy.pl/",
+        url: "https://andrzejczyk2048hex.surge.sh/",
         githubUrl: "",
     },
     {
