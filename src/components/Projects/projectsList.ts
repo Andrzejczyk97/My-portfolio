@@ -117,6 +117,21 @@ export const projectsContainer: Project[] = [
     },
     {
         title: {
+            en: "Bubble sort visualisation",
+            pl: "Wizualizacja sortowania bąbelkowego",
+        },
+        description: {
+            en: `In this TypeScript React App i implemented a bubble sort algorithm. You can run it, stop at any moment,
+             or run step by step. You can also change the sorting steps latency, and the length of random array.`,
+            pl: `W tej aplikacji TypeScript React zaimplementowałem algorytm sortowania bąbelkowego. Możesz go uruchomić,
+             zatrzymać w dowolnym momencie lub uruchomić krok po kroku. Możesz także zmienić opóźnienie kroków sortowania i długość losowej tablicy.`,
+        },
+        screenshotUrl: "https://srv43823.seohost.com.pl/bubble-sort.jpg",
+        url: "https://bubble-sort-visualised.surge.sh/",
+        githubUrl: "https://github.com/Andrzejczyk97/Bubble-sort",
+    },
+    {
+        title: {
             en: "Hexagonal 2048 game",
             pl: "Sześciokątna gra 2048",
         },
