@@ -150,7 +150,7 @@ export const projectsContainer: Project[] = [
     {
         title: {
             en: "Simple JavaScript Calculator.",
-            pl: "Prosty Kalkulator JavScript.",
+            pl: "Prosty Kalkulator JavaScript.",
         },
         description: {
             en: `A calculator written in JavaScript. In addition to performing actions,
