@@ -1,0 +1,49 @@
+.overlayBackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-size: 10px 10px;
+    background-image: linear-gradient(45deg, #bebebe 0, #bebebe 1px, #909090 0, #909090 50%);
+}
+@media (max-width: 778px) {
+    .cvBanner {
+        width: 80%;
+    }
+}
+.cvBanner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 2;
+    font-size: 1.3rem;
+}
+.cvBanner p {
+    text-align: justify;
+    text-indent: 50px;
+}
+.downloadAnchor {
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem;
+    margin: auto;
+    background-color: orange;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.closeOverlay {
+    float: right;
+}

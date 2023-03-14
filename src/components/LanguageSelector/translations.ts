@@ -6,10 +6,7 @@ const TRANSLATION_KEYS = [
     "navbar.projects",
     "navbar.contact",
     "about.title",
-    "about.name",
-    "about.p1.1",
-    "about.p1.2",
-    "about.p1.3",
+    "about.p1",
     "about.p2",
     "about.p3",
     "skills.title",
@@ -20,7 +17,9 @@ const TRANSLATION_KEYS = [
     "contact.findMe",
     "contact.contact",
     "contact.tel",
-    
+    "cvOverlay.h1",
+    "cvOverlay.text",
+    "cvOverlay.download",
 ];
 
 type KeyTuple = typeof TRANSLATION_KEYS;
@@ -39,19 +38,11 @@ export const TRANSLATIONS: TranslationsMap = {
         "navbar.projects": "Projects",
         "navbar.contact": "Contact",
         "about.title": "About me",
-        "about.name": "My name is Tomasz Andrzejczyk",
-        "about.p1.1": "I've taken my first steps in programming in high school.",
-        "about.p1.2": `I developed my knowledge in this field during my first studies, where we used C ++.
-                        The topic of programming fascinated me so much that I gave private lessons in this language.`,
-        "about.p1.3": `I returned to programming after a few years, in the meantime defending the title of engineer at forestry studies.
-                        This time I chose programming in JavaScript and creating pages in HTML and CSS.`,
-        "about.p2": `I follow logical thinking, have analytical mind and a highly developed technical sense. 
-                        I love to work out the mechanisms and take them apart.`,
-        "about.p3": `I am constantly expanding my knowledge, developing my skills and striving for the highest quality. 
-                    Currently I am taking part in a four month TypeScript Bootcamp organised by Evolution - the leading provider of live casino systems.
-                     There, under the supervision of experienced programmers I'am improving my programming skills, TypeScript, React and many 
-                     other tools, frameworks and libraries such like: Redux, MobX, WebGl, Pixi.js, Babylon.js. `,
+        "about.p1": "Hi there! I'm Tomasz Andrzejczyk, a programming enthusiast with a passion for logical thinking and problem-solving. My journey with programming began in high school. On my first studies I excelled in C++. After earning a degree in forestry engineering, I returned to my true passion and delved into the world of web development with HTML, CSS, and JavaScript.",
+        "about.p2": "As an analytical and detail-oriented thinker, I'm always striving to expand my knowledge and skills. Currently, I'm honing my expertise through a four-month TypeScript Bootcamp with Evolution, a leading provider of live casino systems. Under the guidance of experienced programmers, I'm learning new tools, frameworks, and libraries like TypeScript, React, Redux, and more.",
+        "about.p3": "If you're looking for a driven, curious, and highly skilled programmer, I'm your guy! Let's work together to build something amazing.",
         "skills.title": "My skills stack",
+        "skills.description" : "As a front-end developer, I possess the skills needed to create interactive and aesthetically pleasing user interfaces for websites and web applications, including browser-based games. I am proficient in both JavaScript and TypeScript and can use them interchangeably. I utilize Redux and MobX libraries for managing application state, including game states. Working with Bootstrap, I create scalable projects that are easy to maintain and maintain a consistent style. Additionally, I have experience designing and developing responsive websites.",
         "projects.title": "My projects:",
         "links.github": "See it on GitHub:",
         "links.online": "Check it online:",
@@ -60,6 +51,9 @@ export const TRANSLATIONS: TranslationsMap = {
         "contact.contact": "Contact me by: ",
         "contact.mail": "Email",
         "contact.tel": "Telephone",
+        "cvOverlay.h1": "Get to know me better!",
+        "cvOverlay.text": "As a junior developer, I'm passionate about programming and committed to honing my craft. Download my CV to learn more about my education, projects, and skills. Thanks for your interest!",
+        "cvOverlay.download": "Download CV",
     },
     pl: {
         "navbar.about": 'O mnie',
@@ -67,19 +61,11 @@ export const TRANSLATIONS: TranslationsMap = {
         "navbar.projects": "Projekty",
         "navbar.contact": "Kontakt",
         "about.title": "O mnie",
-        "about.name": "Nazywam się Tomasz Andrzejczyk",
-        "about.p1.1": "Pierwsze kroki w programowaniu stawiałem już w liceum.",
-        "about.p1.2": `Swoją wiedzę w tej dziedzinie rozwijałem podczas pierwszych studiów, gdzie korzystaliśmy z C++.
-                    Temat programowania zafascynował mnie na tyle mocno, że udzielałem prywatnych korepetycji z tego języka.`,
-        "about.p1.3": `Do programowania wróciłem po kilku latach, w międzyczasie broniąc tytułu inżyniera na studiach leśniczych.
-                    Tym razem wybrałem programowanie w JavaScript i tworzenie stron w HTML i CSS.`,
-        "about.p2": `Cechuje mnie logiczne myślenie, analityczny umysł oraz wysoko rozwinięty zmysł techniczny. 
-                    Uwielbiam rozpracowywać mechanizmy i rozkładać je na części pierwsze.`,
-        "about.p3": ` Na bieżąco poszerzam swoją wiedzę, rozwijam swoje umiejętności i dążę do najwyższej jakości. 
-        Obecnie biorę udział w czteromiesięcznym TypeScript Bootcamp organizowanym przez Evolution - wiodącego dostawcę 
-        systemów do kasyn na żywo. Tam pod okiem doświadczonych programistów doskonalę swoje umiejętności programistyczne,
-         TypeScript, React oraz wiele innych narzędzi, frameworków i bibliotek takich jak: Redux, MobX, WebGl, Pixi.js, Babylon.js.`,
+        "about.p1": "Cześć! Jestem Tomasz Andrzejczyk, entuzjasta programowania z pasją do logicznego myślenia i rozwiązywania problemów. Moja przygoda z programowaniem zaczęła się w liceum. Na pierwszych studiach wyróżniałem się w C++. Po uzyskaniu stopnia inżyniera leśnictwa, powróciłem do mojej prawdziwej pasji i zagłębiłem się w świat tworzenia stron internetowych przy użyciu HTML, CSS i JavaScript.",
+        "about.p2": "Jako myśliciel analityczny i zorientowany na szczegóły, zawsze dążę do poszerzania mojej wiedzy i umiejętności. Obecnie doskonalę swoje doświadczenie poprzez cztero-miesięczny Bootcamp TypeScript z Evolution, wiodącym dostawcą systemów kasynowych na żywo. Pod opieką doświadczonych programistów uczę się nowych narzędzi, frameworków i bibliotek, takich jak TypeScript, React, Redux i wiele innych.",
+        "about.p3": "Jeśli poszukujesz programisty, który jest zdeterminowany, ciekawski i utalentowany w swoim fachu, to właśnie mnie potrzebujesz! Stwórzmy razem coś niesamowitego.",
         "skills.title": "Moje umiejętności",
+        "skills.description": "Jako programista front-end, posiadam umiejętności potrzebne do tworzenia interaktywnych i estetycznych interfejsów użytkownika dla stron internetowych i aplikacji internetowych, w tym gier przeglądarkowych. Znam zarówno JavaScript, jak i TypeScript i potrafię używać ich na równi. Wykorzystuję biblioteki Redux i MobX do zarządzania stanem aplikacji, w tym gier. Pracując z Bootstrapem, tworzę skalowalne projekty, które są łatwe w obsłudze i zachowują spójny styl. Oprócz tego, posiadam doświadczenie w projektowaniu i tworzeniu responsywnych stron internetowych.",
         "projects.title": "Moje projekty:",
         "links.github": "Zobacz na GitHub:",
         "links.online": "Sprawdź online:",
@@ -88,5 +74,8 @@ export const TRANSLATIONS: TranslationsMap = {
         "contact.contact": "Skontaktuj się ze mną: ",
         "contact.mail": "Mailowo",
         "contact.tel": "Telefonicznie",
+        "cvOverlay.h1": "Chciałbym się lepiej przedstawić!",
+        "cvOverlay.text": "Jako początkujący programista, jestem pasjonatem programowania i poświęcam wiele czasu na doskonalenie swoich umiejętności. Jeśli chcesz dowiedzieć się więcej o moim wykształceniu, projektach oraz umiejętnościach, zapraszam do pobrania mojego CV. Dziękuję za zainteresowanie moją osobą!",
+        "cvOverlay.download": "Pobierz CV",
     },
 };
