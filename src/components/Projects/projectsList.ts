@@ -15,6 +15,27 @@ export type Project = {
 export const projectsContainer: Project[] = [
     {
         title: {
+            en: "3D SLOTS - TypeScript Bootcamp final project",
+            pl: "3D SLOTS - projekt końcowy na TypeScript Bootcamp",
+        },
+        description: {
+            en: `A game developed as a course project during Evolution's Typescript bootcamp. 
+            A 3D game created using Babylon.js as a game core, for 3d graphics and sounds and Pixi.js for te User Interface.
+            You can walk around the scene with W, S, A, D, toggle game mode with C. 
+            You can interact with the machine or the radio by clicking it. The user interface will be shown in game mode or when player is close to the machine. 
+            Find out more about the game in readme on GitHub :)`,
+            pl: `Gra opracowana jako projekt końcowy podczas bootcampu TypeScript firmy Evolution.
+            Gra 3D stworzona przy użyciu Babylon.js jako silnika gry do grafiki 3D i dźwięków oraz Pixi.js do interfejsu użytkownika.
+            Możesz chodzić po scenie za pomocą W, S, A, D, przełączać tryb gry za pomocą C.
+            Możesz wejść w interakcję z maszyną lub radiem, klikając je. Interfejs użytkownika zostanie wyświetlony w trybie gry lub gdy gracz znajduje się blisko maszyny.
+            Dowiedz się więcej o grze w readme na GitHub :)`,
+        },
+        screenshotUrl: "https://srv43823.seohost.com.pl/3dSlots.jpg",
+        url: "https://3d-slots.surge.sh/",
+        githubUrl: "https://github.com/Andrzejczyk97/Evolution-course-work",
+    },
+    {
+        title: {
             en: "zDechy.pl",
             pl: "zDechy.pl",
         },
