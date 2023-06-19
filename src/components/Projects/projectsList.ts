@@ -30,7 +30,7 @@ export const projectsContainer: Project[] = [
             Możesz wejść w interakcję z maszyną lub radiem, klikając je. Interfejs użytkownika zostanie wyświetlony w trybie gry lub gdy gracz znajduje się blisko maszyny.
             Dowiedz się więcej o grze w readme na GitHub :)`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/3dSlots.jpg",
+        screenshotUrl: "/pictures/3dSlots.jpg",
         url: "https://3d-slots.surge.sh/",
         githubUrl: "https://github.com/Andrzejczyk97/Evolution-course-work",
     },
@@ -49,9 +49,32 @@ export const projectsContainer: Project[] = [
               Zająłem się tutaj zarówno projektem jak i wykonaniem. Witryna została
                zbudowana w oparciu o framework Bootstrap 5.`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/zdechy.jpg",
+        screenshotUrl: "/pictures/zdechy.jpg",
         url: "https://zdechy.pl/",
         githubUrl: "",
+    },
+    {
+        title: {
+            en: "Dynamic Table Recruitment task",
+            pl: "Dynamiczna tabela - zadanie rekrutacyjne",
+        },
+        description: {
+            en: `This project demonstrates the implementation of a dynamic table with
+             row selection and breadcrumb functionality using React.js. The application
+              fetches data from an API, populates the table, allows row selection, displays
+               detailed data, and provides breadcrumb navigation. The project's code is
+                organized, readable, and follows React.js best practices, ensuring a
+                 responsive and visually appealing user experience.`,
+            pl: `Ten projekt demonstruje implementację dynamicznej tabeli z wyborem
+             wierszy i funkcjonalnością nawigacyjną za pomocą React.js. Aplikacja 
+             pobiera dane z interfejsu API, zapełnia tabelę, umożliwia wybór wierszy,
+              wyświetla szczegółowe dane i zapewnia nawigację po menu. Kod projektu 
+              jest uporządkowany, czytelny i zgodny z najlepszymi praktykami React.js,
+               zapewniając responsywne i atrakcyjne wizualnie wrażenia użytkownika.`,
+        },
+        screenshotUrl: "/pictures/dynamic-table.jpg",
+        url: "https://dynamic-table-task.surge.sh/",
+        githubUrl: "https://github.com/Andrzejczyk97/Kongsberg-recruitment-task/",
     },
     {
         title: {
@@ -64,7 +87,7 @@ export const projectsContainer: Project[] = [
             pl: `Ta strona to aplikacja React napisana w TypeScript. Jest prosta, 
             ale spełnia swoją funkcję i jest responsywna.`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/Portfolio.jpg",
+        screenshotUrl: "/pictures/Portfolio.jpg",
         url: "https://andrzejczyk-portfolio.surge.sh/",
         githubUrl: "https://github.com/Andrzejczyk97/My-portfolio",
     },
@@ -94,7 +117,7 @@ export const projectsContainer: Project[] = [
               Musiałem również zaimplementować ekran ładowania, który wyświetla się, gdy oczekujące żądanie sieciowe. 
               Zaimplementowałem również dźwięki po kliknięciu.`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/bob_s-list-admin.jpg",
+        screenshotUrl: "/pictures/bob's-list-admin.jpg",
         url: "https://bobs-list-admin.surge.sh/",
         githubUrl: "https://github.com/Andrzejczyk97/Bob-s-List-Admin",
     },
@@ -117,7 +140,7 @@ export const projectsContainer: Project[] = [
               poprawnie. Dodatkowo musiałem zadbać o to, aby lista była aktualizowana przy wielokrotnym dodawaniu 
               miasta oraz obsługiwać przypadki, w których dane o mieście mogą być nieprawidłowe.`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/bob_s-list.jpg",
+        screenshotUrl: "/pictures/bob's-list.jpg",
         url: "https://bobs-list.surge.sh/",
         githubUrl: "https://github.com/Andrzejczyk97/Bob-s-List",
     },
@@ -132,7 +155,7 @@ export const projectsContainer: Project[] = [
             pl: `Gra Bingo. Projekt stworzony jako praca domowa podczas Bootcampu Evolution TypeScript. Moim zadaniem
              było stworzenie reducera, w którym zaimplementowana będzie logika gry w Bingo oraz połączenie tego z UI.`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/redux-bingo.jpg",
+        screenshotUrl: "/pictures/redux-bingo.jpg",
         url: "https://redux-bingo.surge.sh/",
         githubUrl: "https://github.com/Andrzejczyk97/Redux-bingo",
     },
@@ -147,7 +170,7 @@ export const projectsContainer: Project[] = [
             pl: `W tej aplikacji TypeScript React zaimplementowałem algorytm sortowania bąbelkowego. Możesz go uruchomić,
              zatrzymać w dowolnym momencie lub uruchomić krok po kroku. Możesz także zmienić opóźnienie kroków sortowania i długość losowej tablicy.`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/bubble-sort.jpg",
+        screenshotUrl: "/pictures/bubble-sort.jpg",
         url: "https://bubble-sort-visualised.surge.sh/",
         githubUrl: "https://github.com/Andrzejczyk97/Bubble-sort",
     },
@@ -164,7 +187,7 @@ export const projectsContainer: Project[] = [
              Jest to gra 2048 na sześciokątnej siatce. Spróbuj zagrać! Użyj Q, W, E, A, S, D do sterowania.
             Wykorzystuje niestandardowy interfejs API do generowania nowych liczb w losowych polach.`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/hex2048.jpg",
+        screenshotUrl: "/pictures/hex2048.jpg",
         url: "https://andrzejczyk2048hex.surge.sh/",
         githubUrl: "",
     },
@@ -179,7 +202,7 @@ export const projectsContainer: Project[] = [
             pl: `Kalkulator napisany w JavaScript, oprócz wykonywania działań zapisuje
              historie wykonanych działań oraz umożliwia jej wyczyszczenie.`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/kalkulator.jpg",
+        screenshotUrl: "/pictures/kalkulator.jpg",
         url: "https://srv43823.seohost.com.pl/kalkulator.html",
         githubUrl: "",
     },
@@ -192,7 +215,7 @@ export const projectsContainer: Project[] = [
             en: `A simple login form page with clear interface.`,
             pl: `Prosta strona logowania z przejrzystym interfejsem.`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/loginForm.jpg",
+        screenshotUrl: "/pictures/loginForm.jpg",
         url: "https://srv43823.seohost.com.pl/form.html",
         githubUrl: "",
     },
@@ -216,7 +239,7 @@ export const projectsContainer: Project[] = [
               sprawdzana. W przypadku wygranej któregoś z graczy pokazywany jest komunikat. 
               Jeżeli nikt nie wygra wyświetlany jest komunikat o remisie.`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/kolkoKrzyzykMulti.jpg",
+        screenshotUrl: "/pictures/kolkoKrzyzykMulti.jpg",
         url: "https://srv43823.seohost.com.pl/ticTacToeMultiplayer.html",
         githubUrl: "",
     },
@@ -231,7 +254,7 @@ export const projectsContainer: Project[] = [
             pl: `Kółko i krzyżyk w wersji dla jednego gracza. Gra przeciwko komputerowi.
              Zaprogramowane w taki sposób, aby wygrana nie była możliwa. Przekonaj się :)`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/kolkoKrzyzykSingle.jpg",
+        screenshotUrl: "/pictures/kolkoKrzyzykSingle.jpg",
         url: "https://srv43823.seohost.com.pl/ticTacToeSingleplayer.html",
         githubUrl: "",
     },
@@ -244,7 +267,7 @@ export const projectsContainer: Project[] = [
             en: `Animated picture of a penguin, made using only CSS.`,
             pl: `Animowany obrazek przedstawiający pingwina wykonany przy pomocy CSS`,
         },
-        screenshotUrl: "https://srv43823.seohost.com.pl/penguin.jpg",
+        screenshotUrl: "/pictures/penguin.jpg",
         url: "https://srv43823.seohost.com.pl/penguin.html",
         githubUrl: "",
     },
