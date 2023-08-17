@@ -10,22 +10,24 @@ const TRANSLATION_KEYS = [
     "about.p2",
     "about.p3",
     "skills.title",
+    "skills.description",
     "projects.title",
     "links.github",
     "links.online",
     "contact.title",
-    "contact.findMe",
+    "contact.visit",
     "contact.contact",
+    "contact.mail",
     "contact.tel",
     "cvOverlay.h1",
     "cvOverlay.text",
     "cvOverlay.download",
-];
+] as const;
 
 type KeyTuple = typeof TRANSLATION_KEYS;
 export type TranslationKey = KeyTuple[number];
 
-export function isTranslationKey(key: string): key is TranslationKey {
+export function isTranslationKey(key: TranslationKey): key is TranslationKey {
     return TRANSLATION_KEYS.includes(key);
 }
 
