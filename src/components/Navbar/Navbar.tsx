@@ -2,12 +2,11 @@ import LangSelector from "../LanguageSelector/LangSelector"
 import { TranslateText } from '../LanguageSelector/TranslateText';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 export default function Navbar() {
     const [navsVisible, setNavsVisible] = useState(false);
     
     const showBars = () => {
-        console.log("resize")
         const queryWidth = window.matchMedia("(min-width: 700px)").matches;
         if(queryWidth) {
             setNavsVisible(true)
@@ -15,8 +14,10 @@ export default function Navbar() {
             setNavsVisible(false);
         }
     }
+
     useEffect(()=>{
         window.addEventListener("resize", showBars)
+        showBars()
     },[])
 
     const barsClick = () => {
